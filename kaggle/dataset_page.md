@@ -113,6 +113,14 @@ I report the following headline results from the paper:
 - LSTM autoencoder provides the best overall multi-fault performance at about 0.84 F1.
 - Hybrid hardware-noise training improves performance by about 6.5% F1 on average across architectures.
 
+
+## Repository Link
+I publish the full pipeline, models, recurrence plot scripts, and evaluation code in this repository:
+
+https://github.com/aryanputta/satellite-anomaly-detection
+
+Dataset page:
+https://kaggle.com/datasets/aryanputta/hybrid-satellite-telemetry
 ## Repository Link
 I publish the full pipeline, models, recurrence plot scripts, and evaluation code in this repository:
 
