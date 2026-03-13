@@ -121,6 +121,13 @@ https://github.com/aryanputta/satellite-anomaly-detection
 
 Dataset page:
 https://kaggle.com/datasets/aryanputta/hybrid-satellite-telemetry
+## Repository Link
+I publish the full pipeline, models, recurrence plot scripts, and evaluation code in this repository:
+
+https://github.com/aryantputta/satellite-anomaly-detection
+
+Dataset page:
+https://kaggle.com/datasets/aryantputta/hybrid-satellite-telemetry
 
 ## Dataset License
 I release this dataset and accompanying benchmark assets under the Creative Commons Attribution 4.0 International license (CC BY 4.0).
