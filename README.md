@@ -89,6 +89,26 @@ Run validator:
 ```bash
 python scripts/validate_kaggle_artifacts.py
 ```
+
+
+## Run sequence after you add your CSV
+1. Verify the dataset file is present and has expected columns/size:
+```bash
+python scripts/check_data_ready.py --csv data/hybrid_satellite_telemetry.csv --min-rows 100000
+```
+2. Run model evaluation (all models):
+```bash
+python evaluation/fault_type_eval.py --all-models --data data/hybrid_satellite_telemetry.csv
+```
+3. Run Kaggle artifact validation:
+```bash
+python scripts/validate_kaggle_artifacts.py
+```
+
+If Python dependencies are missing in your environment, install with:
+```bash
+pip install -r requirements.txt
+```
 Kaggle release assets for:
 
 **Hybrid Satellite Telemetry Anomaly Detection: A Novel Dataset, Fault Taxonomy, Recurrence-Plot Computer Vision, and Comparative Machine Learning Study**
