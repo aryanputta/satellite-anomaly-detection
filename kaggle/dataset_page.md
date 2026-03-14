@@ -55,6 +55,22 @@ Temporary telemetry loss caused by sensor malfunction or readout interruption.
 
 I model `WHEEL_OSCILLATION` using oscillatory behavior consistent with pre-failure reaction wheel telemetry signatures discussed in mission literature, including Kepler failure context.
 
+
+## My Core Contributions
+I highlight the following contributions in this dataset release:
+- A fault-typed telemetry dataset for satellite anomaly diagnosis, not only binary anomaly tags.
+- A hybrid simulation plus hardware-noise data design grounded in measured Arduino sensor behavior.
+- A recurrence-plot computer vision framing for telemetry windows.
+- A comparative four-model evaluation setup (Isolation Forest, Standard AE, LSTM AE, CNN on RP).
+
+## Kaggle Upload Checklist
+Before publishing, I verify:
+1. Dataset files are uploaded with the exact `hybrid_satellite_dataset/` directory layout.
+2. `satellite_runs/sat_01.csv` to `sat_10.csv` are present.
+3. `hardware_noise/*.csv` and `metadata/*.csv` are present.
+4. Notebook input points to this dataset and runs end to end.
+5. Dataset description includes split protocol and benchmark summary.
+
 ## Dataset Structure
 ```text
 hybrid_satellite_dataset/
@@ -113,6 +129,16 @@ I report the following headline results from the paper:
 - LSTM autoencoder provides the best overall multi-fault performance at about 0.84 F1.
 - Hybrid hardware-noise training improves performance by about 6.5% F1 on average across architectures.
 
+
+
+## Research Notebook Scope
+My Kaggle notebook is designed as a research companion, not only a minimal benchmark. I include sections for all four model families discussed in my paper:
+- Isolation Forest
+- Standard Autoencoder
+- LSTM Autoencoder
+- CNN Autoencoder on recurrence plots
+
+I also use automatic `/kaggle/input` path detection in the notebook to avoid dataset mount path errors that can cause `file not found` issues.
 
 ## Repository Link
 I publish the full pipeline, models, recurrence plot scripts, and evaluation code in this repository:
