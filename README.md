@@ -91,6 +91,18 @@ python scripts/validate_kaggle_artifacts.py
 ```
 
 
+Check public links:
+```bash
+python scripts/check_links.py
+```
+
+
+Paper-coverage audit:
+```bash
+python scripts/audit_paper_coverage.py
+```
+
+
 ## Run sequence after you add your CSV
 1. Verify the dataset file is present and has expected columns/size:
 ```bash
