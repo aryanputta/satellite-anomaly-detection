@@ -1,7 +1,5 @@
 # satellite-anomaly-detection
 
-This repository is organized to match your requested project layout and to support dataset generation, recurrence-plot encoding, fault-type evaluation, and demo workflows.
-
 ## Project Structure
 
 ```text
