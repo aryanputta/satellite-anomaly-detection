@@ -1,5 +1,13 @@
 # satellite-anomaly-detection
 
+Kaggle release assets and reproducibility code for:
+
+**Hybrid Satellite Telemetry Anomaly Detection: A Novel Dataset, Fault Taxonomy, Recurrence-Plot Computer Vision, and Comparative Machine Learning Study**
+
+- Paper page: https://aryanputta.com/papers/hybrid-satellite-telemetry-anomaly-detection.html
+- PDF: https://aryanputta.com/assets/papers/hybrid-satellite-telemetry-anomaly-detection.pdf
+- Portfolio: https://aryanputta.com/
+
 ## Project Structure
 
 ```text
